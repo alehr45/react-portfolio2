@@ -1,20 +1,33 @@
 import React from "react";
-import { Navbar, Nav, Form , FormControl , Button } from "react-bootstrap";
+import { Navbar, Nav } from "react-bootstrap";
 
 
-const NavBar = () => {
+
+const NavBar = () => { 
 
   return (
-    <Navbar className="nav" bg="light" variant="light">
-    <Navbar.Brand href="#home">Alex Lehr</Navbar.Brand>
-
-    <Nav className="mr-auto">
-      <Nav.Link href="#home">Home</Nav.Link>
-      <Nav.Link href="#projects">Projects</Nav.Link>
-      <Nav.Link href="#contact">Contact</Nav.Link>
-    </Nav>
    
-  </Navbar>
+     <Navbar className="nav" collapseOnSelect fixed="top" expand="sm" variant="dark">
+  
+        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+        <Navbar.Collapse id="responsive-navbar-nav">
+        <Nav className="mr-auto">
+            
+              <React.Fragment >
+                <Nav.Link className="text-light" href="/">Home</Nav.Link>
+                <Nav.Link className="text-light" href="/">Portfolio</Nav.Link>
+                <Nav.Link className="text-light" href="/">Contact</Nav.Link>
+              
+               
+             
+              
+              </React.Fragment>
+            
+          </Nav>
+        </Navbar.Collapse>
+        <div></div>
+      
+    </Navbar>
   );
 };
 

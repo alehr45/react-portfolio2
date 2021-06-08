@@ -1,13 +1,32 @@
+@font-face {
+  font-family: "fl";
+  src: url(./fonts/FLOTTA\ Font\ by\ Situjuh\ \(7NTypes\).otf);
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.title {
+
+  padding-top: 50px;
+  font-size: 75px;
+  font-family: "fl";
+}
+
+.subtitle {
+
+  padding-top: 20px;
+  font-family: "fl";
+  font-size: 30px;
 }

@@ -1,6 +1,6 @@
 @font-face {
   font-family: "fl";
-  src: url(./fonts/FLOTTA\ Font\ by\ Situjuh\ \(7NTypes\).otf);
+  src: url("./fonts/FLOTTA\ Font\ by\ Situjuh\ \(7NTypes\).otf");
 }
 
 body {
@@ -18,15 +18,15 @@ code {
 }
 
 .title {
-
   padding-top: 50px;
   font-size: 75px;
   font-family: "fl";
 }
 
 .subtitle {
-
   padding-top: 20px;
   font-family: "fl";
   font-size: 30px;
 }
+
+

@@ -14,9 +14,9 @@ const NavBar = () => {
         <Nav className="mr-auto">
             
               <React.Fragment >
-                <Nav.Link className="text-light" href="/">About Me</Nav.Link>
-                <Nav.Link className="text-light" href="/">Portfolio</Nav.Link>
-                <Nav.Link className="text-light" href="/">Contact</Nav.Link>
+                <Nav.Link className="text-light" href="/aboutme">About Me</Nav.Link>
+                <Nav.Link className="text-light" href="/portfolio">Portfolio</Nav.Link>
+                <Nav.Link className="text-light" href="/contact">Contact</Nav.Link>
               
                
              

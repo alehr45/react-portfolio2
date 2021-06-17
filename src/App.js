@@ -15,11 +15,12 @@ function App() {
         <Switch>
           <Route path="/portfolio" component={Portfolio} />
           <Route path="/aboutme" component={AboutMe} />
-
           <Route path="/" component={Home} />
         </Switch>
       </div>
+ 
     </Router>
+    
   );
 }
 

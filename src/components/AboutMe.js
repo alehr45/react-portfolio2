@@ -3,6 +3,7 @@ import TextAnimation from "react-animate-text";
 import resume from "../images/resume.pdf"
 import  { Button , Image } from "react-bootstrap";
 import vandy from "../images/vandy.png"
+import { SocialIcon } from 'react-social-icons';
 
 function AboutMe() {
   return (
@@ -68,7 +69,15 @@ function AboutMe() {
         </a>
       </ul>
       </div>
+      <SocialIcon className="social" url="https://linkedin.com/in/jaketrent" />
+<SocialIcon className="social" url="https://www.facebook.com/alex.lehr.75" />
+<SocialIcon className="social" url="https://github.com/alehr45" />
+<div>
+        <h1 className="copy2">-Alex Lehr &copy; 2021-</h1>
+      </div>
     </section>
+
+
   );
 }
 

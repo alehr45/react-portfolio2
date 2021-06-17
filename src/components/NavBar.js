@@ -14,6 +14,9 @@ const NavBar = () => {
       <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="mr-auto">
           <React.Fragment>
+          <Nav.Link className="text-light" href="/">
+             Home
+            </Nav.Link>
             <Nav.Link className="text-light" href="/aboutme">
               About Me
             </Nav.Link>

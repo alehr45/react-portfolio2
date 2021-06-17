@@ -123,6 +123,7 @@ code {
 }
 
 
+
 .work1 {
   font-family: "fl";
   color: rgb(75, 75, 75, );
@@ -140,6 +141,8 @@ margin: 20px;
 }
 
 .copy1{
+  padding-top:  40px;
+  padding-bottom:  20px;
   font-family: "fl";
   font-size: 20px;
 }
@@ -147,7 +150,7 @@ margin: 20px;
 .copy2{
   font-family: "fl";
   font-size: 20px;
-  padding-top:  30px;
+  padding-top:  40px;
 }
 
 

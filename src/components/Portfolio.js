@@ -60,7 +60,7 @@ function Portfolio() {
           className="image1"
           height="600px"
           width="600px"
-          src={image4}
+          src={image5}
           fluid
         />
       </div>
@@ -70,7 +70,7 @@ function Portfolio() {
           className="image1"
           height="600px"
           width="600px"
-          src={image5}
+          src={image4}
           fluid
         />
       </div>

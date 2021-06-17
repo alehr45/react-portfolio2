@@ -5,6 +5,7 @@ import Home from "./components/Home";
 import NavBar from "./components/NavBar";
 import AboutMe from "./components/AboutMe";
 import Portfolio from "./components/Portfolio";
+import Contact from "./components/Contact";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
         <Switch>
           <Route path="/portfolio" component={Portfolio} />
           <Route path="/aboutme" component={AboutMe} />
+          <Route path="/contact" component={Contact} />
           <Route path="/" component={Home} />
         </Switch>
       </div>

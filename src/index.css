@@ -97,13 +97,15 @@ code {
 .resume.btn.btn-primary {
   font-size: 20px;
   margin: 20px;
-  background-color: #2c6280;
-  color: antiquewhite;
+  background-color: #858112;
+  color: white;
 }
 
 .resume.btn.btn-primary:hover {
-  background-color: #9d991e;
+  background-color: #4680a0;
 }
+
+
 
 .profile1 {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",

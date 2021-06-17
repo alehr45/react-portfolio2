@@ -1,5 +1,5 @@
 import React from "react";
-import {  Image }  from "react-bootstrap";
+import { Image }  from "react-bootstrap";
 import profile from "../images/Profile.jpg";
 import { SocialIcon } from 'react-social-icons';
 import TextAnimation from 'react-animate-text';

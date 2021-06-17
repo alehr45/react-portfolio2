@@ -1,7 +1,8 @@
 @font-face {
   font-family: "fl";
-  src: url("./fonts/FLOTTA\ Font\ by\ Situjuh\ \(7NTypes\).otf");
+  src: url("./fonts/OptimusPrincepsSemiBold.ttf");
 }
+
 
 body {
   margin: 0;
@@ -19,7 +20,7 @@ code {
 
 .title {
   padding-top: 100px;
-  font-size: 85px;
+  font-size: 55px;
   font-family: "fl";
   color: rgb(75, 75, 75);
 }
@@ -27,7 +28,7 @@ code {
 .subtitle {
   padding-top: 20px;
   font-family: "fl";
-  font-size: 30px;
+  font-size: 20px;
   color: rgb(75, 75, 75);
 }
 
@@ -41,4 +42,66 @@ code {
 
 .text-light{
   color: blue;
+}
+
+.who {
+  font-size: 50px;
+  font-family: "fl";
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+}
+
+.about {
+  
+
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  padding-left: 40px;
+  padding-right: 40px;
+  
+}
+
+.about1 {
+  color:  #2c6280;
+  font-size: 30px;
+  font-family: "fl";
+  padding-top: 10px;
+}
+
+.pros{
+  color:  #2c6280;
+  font-family: "fl";
+  padding-top: 20px;
+  
+}
+
+.front{
+  padding-left: 0px;
+  font-size: 15px;
+  list-style-type: none; 
+}
+.front1{
+  font-size: 20px;
+  padding-top: 20px;
+}
+
+.back{
+  padding-left: 0px;
+  font-size: 15px;
+  list-style-type: none; 
+}
+
+.back1{
+  font-size: 20px;
+}
+
+.resume.btn.btn-primary {
+  font-size: 20px;
+  margin: 40px;
+  background-color: #2c6280;;
+}
+
+.profile1 {
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 16px;
 }

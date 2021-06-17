@@ -1,7 +1,8 @@
 import React from "react";
 import TextAnimation from "react-animate-text";
 import resume from "../images/resume.pdf"
-import  { Button } from "react-bootstrap";
+import  { Button , Image } from "react-bootstrap";
+import vandy from "../images/vandy.png"
 
 function AboutMe() {
   return (
@@ -12,6 +13,8 @@ function AboutMe() {
           Who Am I?
         </h1>
       </TextAnimation>
+
+
 
       <div className="about">
         <h1 className="about1">-Alexander Lehr-</h1>
@@ -24,7 +27,13 @@ function AboutMe() {
           individually motivated setting.
         </h5>
       </div>
-      
+      <Image
+          
+          src={vandy}
+          height="130px"
+          width="250px"
+          
+        />
         
 
         <div>

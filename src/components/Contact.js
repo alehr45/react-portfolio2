@@ -3,6 +3,11 @@ import { validateEmail } from "../utils/helpers";
 import { Button } from "react-bootstrap";
 import TextAnimation from "react-animate-text";
 import { SocialIcon } from "react-social-icons";
+import emailjs from 'emailjs-com';
+
+
+// init("user_fx2BWVE7GJsAq31R9AHJa");
+
 
 function Contact() {
     const [errorMessage, setErrorMessage] = useState("");
@@ -32,12 +37,15 @@ function Contact() {
     }
     if (!errorMessage) {
         setFormState({ ...formState, [e.target.name]: e.target.value });
+        
       };}
 
   function handleSubmit(e) {
     e.preventDefault();
+    emailjs.send('default_service','template_teraw94', formState, "user_fx2BWVE7GJsAq31R9AHJa")
     console.log(formState);
-     alert ("Your form has been submitted. Thanks!");
+     alert ("Thanks for reaching out. I will get back to you ASAP!");
+     
     
   }
 
@@ -100,7 +108,13 @@ function Contact() {
       <div>
         <h1 className="copy3">-Alex Lehr &copy; 2021-</h1>
       </div>
+
+      
     </div>
   );
 }
+
+
+
+
 export default Contact;

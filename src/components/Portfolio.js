@@ -111,7 +111,7 @@ function Portfolio() {
 
 
       </div>
-      <h5 className="wait1">Wait theres more ! </h5>
+      <h5 className="wait1">Wait there's more ! </h5>
       <h5 className="wait2">Dont forget to check out my other repositories on Github.</h5>
       <a href="https://github.com/alehr45">-github.com/alehr45-</a>
       <div>

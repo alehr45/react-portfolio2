@@ -65,7 +65,7 @@ function AboutMe() {
          
           
           
-        <Button className="resume">Resume</Button>{' '}
+        <Button className="resume">My Resume</Button>{' '}
         </a>
       </ul>
       </div>

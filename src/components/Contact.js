@@ -59,6 +59,10 @@ function Contact() {
         <h1 className="contact1">-Contact Me-</h1>
       </TextAnimation>
 
+      <h5 className="looking">Looking to hire a developer?</h5>
+      <h5 className="looking">Need help with a project? </h5>
+      <h5 className="looking">Just want to chat about coding?</h5>
+
       <form id="contact-form" method="POST">
         <div className="form-group">
           <label htmlFor="name">Name:</label>

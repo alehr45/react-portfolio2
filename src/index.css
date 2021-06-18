@@ -99,10 +99,11 @@ code {
   margin: 20px;
   background-color: #7e7e7e;
   color: white;
+  border-color: white ;
 }
 
 .resume.btn.btn-primary:hover {
-  background-color: #4680a0;
+  background-color: #bbbbbb;
 }
 
 .contact1{
@@ -196,6 +197,7 @@ margin: 20px;
   margin-bottom: 25px;
   background-color: #7e7e7e;
   color: white;
+  border-color: white;
 }
 
 .description {
@@ -212,3 +214,19 @@ margin: 20px;
   padding-bottom: 2px;
 }
 
+.looking {
+  font-size: 14px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande";
+}
+
+.wait1{
+  padding-top: 20px;
+  font-size: 18px;
+  font-weight: 600;
+  font-family: "fl";
+}
+
+.wait2{
+
+  font-size: 10px;
+}

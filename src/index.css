@@ -220,6 +220,7 @@ margin: 20px;
 }
 
 .wait1{
+  color: rgb(75, 75, 75);
   padding-top: 20px;
   font-size: 18px;
   font-weight: 600;
@@ -227,6 +228,19 @@ margin: 20px;
 }
 
 .wait2{
-
+  color: rgb(75, 75, 75);
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande";
   font-size: 10px;
+}
+
+#contact-form{
+  padding-left: 70px;
+  padding-right: 70px;
+}
+
+@media only screen and (min-width: 600px) {
+  #contact-form{
+    padding-left: 400px;
+    padding-right: 400px;
+  }
 }

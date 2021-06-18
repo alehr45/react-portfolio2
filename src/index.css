@@ -127,9 +127,12 @@ code {
   width: 100%;
   border-radius: 10px 10px 10px 10px;
   border: 10px solid #2c6280;
+  opacity: .75;
 }
 
-
+.img-fluid:hover {
+  opacity: 1;
+}
 
 .work1 {
   font-family: "fl";
@@ -192,4 +195,9 @@ margin: 20px;
   margin-bottom: 25px;
   background-color: #7e7e7e;
   color: white;
+}
+
+.description {
+  color: rgb(75, 75, 75);
+  font-size: 12px;
 }

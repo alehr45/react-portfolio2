@@ -24,7 +24,7 @@ function Home() {
         </TextAnimation>
       </div>
   
-      <SocialIcon className="social" url="https://linkedin.com/in/jaketrent" />
+      <SocialIcon className="social" url="https://www.linkedin.com/in/alexlehr" />
       <SocialIcon className="social" url="https://www.facebook.com/alex.lehr.75" />
       <SocialIcon className="social" url="https://github.com/alehr45" />
      

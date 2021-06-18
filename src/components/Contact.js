@@ -45,6 +45,7 @@ function Contact() {
     emailjs.send('service_mevmdgp','template_teraw94', formState, "user_fx2BWVE7GJsAq31R9AHJa")
     console.log(formState);
      alert ("Thanks for reaching out. I will get back to you ASAP!");
+     window.location.reload()
      
     
   }

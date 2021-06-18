@@ -1,6 +1,6 @@
 import React from "react";
 import { Image }  from "react-bootstrap";
-import profile from "../images/Profile.jpg";
+import profile from "../images/Profile2.jpg";
 import { SocialIcon } from 'react-social-icons';
 import TextAnimation from 'react-animate-text';
 
@@ -15,8 +15,8 @@ function Home() {
         <Image
           className="pic"
           src={profile}
-          height="230px"
-          width="290px"
+          height="235px"
+          width="300px"
           roundedCircle
         />
         <TextAnimation>

@@ -114,6 +114,8 @@ code {
 
 
 .profile1 {
+  padding-left: 50px;
+  padding-right: 50px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   font-size: 16px;
@@ -246,11 +248,17 @@ margin: 20px;
 }
 
 
-@media only screen and (min-width: 1000px) {
+@media (min-width: 1000px) {
   #contact-form{
-    padding-left: 200px;
-    padding-right: 200px;
+    padding-left: 300px;
+    padding-right: 300px;
   }
 }
 
 
+.contact1 {
+  color: rgb(75, 75, 75);
+  font-family: "fl";
+  font-size: 35px;
+  padding-top: 110px;
+}

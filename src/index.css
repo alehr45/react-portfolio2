@@ -240,16 +240,16 @@ margin: 20px;
 
 @media only screen and (max-width: 600px) {
   #contact-form{
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 70px;
+    padding-right: 70px;
   }
 }
 
 
 @media only screen and (min-width: 1000px) {
   #contact-form{
-    padding-left: 400px;
-    padding-right: 400px;
+    padding-left: 200px;
+    padding-right: 200px;
   }
 }
 

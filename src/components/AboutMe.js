@@ -60,12 +60,18 @@ function AboutMe() {
         <li>MongoDB, Mongoose</li>
         <li>REST</li>
         <li>GraphQL</li>
+        <div>
         <a href={resume} target="_blank" rel="noreferrer">
-      <Button className="resume">My Resume</Button>{' '}
+      <Button className="resume">Resume</Button>{' '}
+      
+     
         </a>
+        </div>
+        <div>
         <a href={cert} target="_blank" rel="noreferrer">
-        <Button className="resume">My Certificate</Button>{' '}
+        <Button className="resume1">Certificate</Button>{' '}
         </a>
+        </div>
       </ul>
       </div>
       <SocialIcon className="social" url="https://www.linkedin.com/in/alexlehr" />

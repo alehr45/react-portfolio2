@@ -1,6 +1,7 @@
 import React from "react";
 import TextAnimation from "react-animate-text";
 import resume from "../images/resume.pdf"
+import cert from "../images/certificate.pdf"
 import  { Button , Image } from "react-bootstrap";
 import vandy from "../images/vandy.png"
 import { SocialIcon } from 'react-social-icons';
@@ -60,12 +61,10 @@ function AboutMe() {
         <li>REST</li>
         <li>GraphQL</li>
         <a href={resume} target="_blank" rel="noreferrer">
-      
-        
-         
-          
-          
-        <Button className="resume">My Resume</Button>{' '}
+      <Button className="resume">My Resume</Button>{' '}
+        </a>
+        <a href={cert} target="_blank" rel="noreferrer">
+        <Button className="resume">My Certificate</Button>{' '}
         </a>
       </ul>
       </div>

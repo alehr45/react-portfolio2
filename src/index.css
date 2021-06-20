@@ -96,14 +96,14 @@ code {
 
 .resume.btn.btn-primary {
   font-size: 20px;
-  margin: 20px;
-  background-color: #7e7e7e;
-  color: white;
-  border-color: white ;
+  margin-top: 20px;
+  background-color: #2c6280;
+  border-color: antiquewhite ;
+
 }
 
 .resume.btn.btn-primary:hover {
-  background-color: #bbbbbb;
+  background-color: rgb(152, 124, 32) ;
 }
 
 .contact1{
@@ -114,8 +114,8 @@ code {
 
 
 .profile1 {
-  padding-left: 50px;
-  padding-right: 50px;
+  padding-left: 40px;
+  padding-right: 40px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   font-size: 16px;
@@ -196,11 +196,19 @@ margin: 20px;
 }  
 
 .button1.btn.btn-primary{
+  font-size: 20px;
   margin-bottom: 25px;
-  background-color: #7e7e7e;
-  color: white;
-  border-color: white;
+  background-color: #2c6280;
+  border-color: antiquewhite;
+
 }
+
+.button1.btn.btn-primary:hover{
+ 
+  background-color: rgb(152, 124, 32) ;
+  
+}
+
 
 .description {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande";

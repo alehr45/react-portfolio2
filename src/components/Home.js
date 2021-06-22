@@ -1,8 +1,9 @@
 import React from "react";
-import { Image }  from "react-bootstrap";
+import { Image, Button}  from "react-bootstrap";
 import profile from "../images/Profile2.jpg";
 import { SocialIcon } from 'react-social-icons';
 import TextAnimation from 'react-animate-text';
+import resume from "../images/resume.pdf"
 
 function Home() {
   return (
@@ -23,12 +24,16 @@ function Home() {
         <h2 class="subtitle">-Full Stack Web Developer-</h2>
         </TextAnimation>
       </div>
+      <div>
+        <a href={resume} target="_blank" rel="noreferrer">
+        <Button className="resume1">My Resume</Button>{' '}
+        </a>
+        </div>
   
       <SocialIcon className="social" url="https://www.linkedin.com/in/alexlehr" />
       <SocialIcon className="social" url="https://www.facebook.com/alex.lehr.75" />
       <SocialIcon className="social" url="https://github.com/alehr45" />
-     
-      
+  
     </div>
   );
 }

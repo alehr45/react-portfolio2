@@ -95,7 +95,8 @@ code {
 }
 
 .resume.btn.btn-primary {
-  font-size: 20px;
+  border-radius: 7px 7px 7px 7px;
+  font-size: 15px;
   margin-top: 30px;
   background-color: #2c6280;
   border-color: antiquewhite ;
@@ -103,7 +104,8 @@ code {
 }
 
 .resume1.btn.btn-primary {
-  font-size: 20px;
+ border-radius: 7px 7px 7px 7px;
+ font-size: 15px;
   margin-top: 5px;
   margin-bottom: 15px;
   background-color: #2c6280;
@@ -272,5 +274,4 @@ margin: 20px;
     padding-right: 300px;
   }
 }
-
 

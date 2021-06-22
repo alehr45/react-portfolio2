@@ -21,8 +21,8 @@ function AboutMe() {
       <div className="about">
         <h1 className="about1">-Alexander Lehr-</h1>
         <h5 className="profile1">
-          A Vanderbilt graduate pursuing employment and eager to contribute his
-          developed knowledge in a Web Development role. Numerous years in
+          An ambitious Vanderbilt graduate pursuing employment and eager to contribute his
+          developed knowledge in a Web Development role. 15+ years in
           customer service and communications. Experience in front-end and
           back-end technologies and hungry to learn more! Adaptable and driven
           with strong work ethic and ability to thrive in a team-based or

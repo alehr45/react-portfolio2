@@ -6,7 +6,7 @@ Made with React and React Bootstrap.
 
 
 
-http://alehr.com
+www.alehr.com
 
 
 ![alt text](screenshot.png)

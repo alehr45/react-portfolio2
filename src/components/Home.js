@@ -29,13 +29,7 @@ function Home() {
       <SocialIcon className="social" url="https://www.facebook.com/alex.lehr.75" />
       <SocialIcon className="social" url="https://github.com/alehr45" />
 
-      <div>
-        <a href={resume} target="_blank" rel="noreferrer">
-        <Button className="resume2">My Resume</Button>{' '}
-        </a>
-        </div>
-  
-  
+
     </div>
   );
 }

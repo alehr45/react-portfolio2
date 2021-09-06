@@ -3,7 +3,7 @@ import { Image, Button}  from "react-bootstrap";
 import profile from "../images/Profile2.jpg";
 import { SocialIcon } from 'react-social-icons';
 import TextAnimation from 'react-animate-text';
-import resume from "../images/resume.PDF"
+
 
 function Home() {
   return (

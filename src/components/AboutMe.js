@@ -1,6 +1,6 @@
 import React from "react";
 import TextAnimation from "react-animate-text";
-import resume from "../images/resume.PDF"
+import resume from "../images/resume.pdf"
 import cert from "../images/certificate.pdf"
 import  { Button , Image } from "react-bootstrap";
 import vandy from "../images/vandy.png"

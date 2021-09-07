@@ -7,6 +7,7 @@ import image1 from "../images/2.jpg";
 import image2 from "../images/0.jpg";
 import image4 from "../images/4.jpg";
 import image5 from "../images/6.jpg";
+import image6 from "../images/7.jpg";
 
 function Portfolio() {
   return (
@@ -36,20 +37,25 @@ function Portfolio() {
       </div>
      
 <div>
-<div >
-        <h5 class="title1">-GamerSpot-</h5>
-        <h6 className="description">A video game e-commerce site using Handlebars.</h6>
+<div>
+      <div >
+        <h5 class="title1">-React Tetris Game-</h5>
+        <h6 className="description">
+          A tetris game built with React{" "}
+        </h6>
         </div>
-        <a href="https://gamer-spot-45.herokuapp.com/" target="_blank">
+        <a href="https://react-tetris-45.herokuapp.com/" target="_blank">
         <Image
           className="image1"
           height="600px"
           width="600px"
-          src={image0}
+          src={image6}
           fluid
         />
         </a>
-      </div>
+
+
+        </div>
       
 <div>
 <div >
@@ -103,6 +109,23 @@ function Portfolio() {
 
 
       </div>
+
+      
+        <div >
+        <h5 class="title1">-GamerSpot-</h5>
+        <h6 className="description">A video game e-commerce site using Handlebars.</h6>
+        </div>
+        <a href="https://gamer-spot-45.herokuapp.com/" target="_blank">
+        <Image
+          className="image1"
+          height="600px"
+          width="600px"
+          src={image0}
+          fluid
+        />
+        </a>
+      </div>
+
       <h5 className="wait1">Check my GitHub for more! </h5>
       
         <SocialIcon className="social3" url="https://github.com/alehr45" />

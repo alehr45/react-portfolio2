@@ -62,7 +62,7 @@ function Portfolio() {
         <h5 class="title1">-Weekly Food Planner-</h5>
         <h6 className="description">A meal prep application using Spoonacular API.</h6>
         </div>
-        <a href="https://github.com/alehr45/weekly-food-planner " target="_blank">
+        <a href="https://alehr45.github.io/weekly-food-planner/ " target="_blank">
         <Image
           className="image1"
           height="600px"

@@ -75,12 +75,12 @@ function Portfolio() {
       
 <div>
       <div >
-        <h5 class="title1">-Budget Tracker-</h5>
+        <h5 class="title1">-WordPress University-</h5>
         <h6 className="description">
-          An app that helps you keep track of your budget, online or offline.{" "}
+          An website built for a university using PHP and Wordpress.{" "}
         </h6>
         </div>
-        <a href="https://budget-tracker-45.herokuapp.com//" target="_blank">
+        <a href="http://www.alehr-wordpress.com/" target="_blank">
         <Image
           className="image1"
           height="600px"

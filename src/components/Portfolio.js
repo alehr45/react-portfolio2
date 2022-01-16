@@ -47,24 +47,24 @@ function Portfolio() {
             <Image className="image1" height="600px" width="600px" src={image2} fluid />
           </a>
         </div>
+        <a href="https://alehr45.github.io/weekly-food-planner/ " target="_blank">
+          <Image className="image1" height="600px" width="600px" src={image2} fluid />
+        </a>
+      </div>
 
+      <div>
         <div>
-          <div>
-            <h5 class="title1">-Budget Tracker-</h5>
-            <h6 className="description">An app that helps you keep track of your budget, online or offline. </h6>
-          </div>
-          <a href="https://budget-tracker-45.herokuapp.com//" target="_blank">
-            <Image className="image1" height="600px" width="600px" src={image5} fluid />
-          </a>
+          <h5 class="title1">-WordPress University-</h5>
+          <h6 className="description">An website built for a university using PHP and Wordpress. </h6>
         </div>
+        <a href="http://www.alehr-wordpress.com/" target="_blank">
+          <Image className="image1" height="600px" width="600px" src={image5} fluid />
+        </a>
+      </div>
+      <div>
         <div>
-          <div>
-            <h5 class="title1">-True Plumb-</h5>
-            <h6 className="description">A mobile site made for a friend opening their own plumbing business </h6>
-          </div>
-          <a href="https://trueplumb.herokuapp.com/" target="_blank">
-            <Image className="image1" height="600px" width="600px" src={image4} fluid />
-          </a>
+          <h5 class="title1">-True Plumb-</h5>
+          <h6 className="description">A mobile site made for a friend opening their own plumbing business </h6>
         </div>
 
         <div>

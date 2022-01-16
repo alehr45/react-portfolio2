@@ -1,15 +1,10 @@
-import React from "react";
-import { Navbar, Nav } from "react-bootstrap";
+import React from "react"
+import { Navbar, Nav } from "react-bootstrap"
 
-const NavBar = () => {
+const NavBar = props => {
+  console.log(props.action)
   return (
-    <Navbar
-      className="nav"
-      collapseOnSelect
-      fixed="top"
-      expand="sm"
-      variant="dark"
-    >
+    <Navbar className="nav" collapseOnSelect fixed="top" expand="sm" variant="dark">
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="mr-auto">
@@ -32,7 +27,7 @@ const NavBar = () => {
       </Navbar.Collapse>
       <div></div>
     </Navbar>
-  );
-};
+  )
+}
 
-export default NavBar;
+export default NavBar

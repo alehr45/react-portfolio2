@@ -3,8 +3,9 @@ import TextAnimation from "react-animate-text"
 import resume from "../images/resume.pdf"
 import cert1 from "../images/certificate.pdf"
 import cert2 from "../images/certificate2.pdf"
+import cert3 from "../images/certificate3.pdf"
 import { Button, Image } from "react-bootstrap"
-import vandy from "../images/vandy.png"
+// import vandy from "../images/vandy.png"
 import { SocialIcon } from "react-social-icons"
 
 function AboutMe() {
@@ -21,12 +22,12 @@ function AboutMe() {
         <h1 className="about1">-Alexander Lehr-</h1>
         <h5 className="profile1">An ambitious Vanderbilt graduate pursuing employment and eager to contribute his developed knowledge in a Web Development role. 15+ years in customer service and communications. Experience in front-end and back-end technologies and hungry to learn more! Adaptable and driven with strong work ethic and ability to thrive in a team-based or individually motivated setting.</h5>
       </div>
-      <Image src={vandy} height="130px" width="250px" />
+      {/* <Image src={vandy} height="130px" width="250px" /> */}
 
       <div>
         <h4 className="pros">-Proficiencies-</h4>
 
-        <ul class="front">
+        <ul className="front">
           <h3 className="front1">Front End:</h3>
           <li>HTML</li>
           <li>CSS</li>
@@ -36,7 +37,7 @@ function AboutMe() {
           <li>React</li>
         </ul>
 
-        <ul class="back">
+        <ul className="back">
           <h3 className="back1">Back End:</h3>
           <li>API's</li>
           <li>Node</li>
@@ -58,6 +59,11 @@ function AboutMe() {
           <div>
             <a href={cert2} target="_blank" rel="noreferrer">
               <Button className="resume1">Udemy Wordpress and PHP Certificate</Button>{" "}
+            </a>
+          </div>
+          <div>
+            <a href={cert3} target="_blank" rel="noreferrer">
+              <Button className="resume1">Udemy React Certificate</Button>{" "}
             </a>
           </div>
         </ul>

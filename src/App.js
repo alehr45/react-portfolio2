@@ -1,12 +1,12 @@
-import React from "react";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import "./App.css";
-import Home from "./components/Home";
-import NavBar from "./components/NavBar";
-import AboutMe from "./components/AboutMe";
-import Portfolio from "./components/Portfolio";
-import Contact from "./components/Contact";
-import "bootstrap/dist/css/bootstrap.min.css";
+import React from "react"
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom"
+import "./App.css"
+import Home from "./components/Home"
+import NavBar from "./components/NavBar"
+import AboutMe from "./components/AboutMe"
+import Portfolio from "./components/Portfolio"
+import Contact from "./components/Contact"
+import "bootstrap/dist/css/bootstrap.min.css"
 
 function App() {
   return (
@@ -20,10 +20,8 @@ function App() {
           <Route path="/" component={Home} />
         </Switch>
       </div>
- 
     </Router>
-    
-  );
+  )
 }
 
-export default App;
+export default App

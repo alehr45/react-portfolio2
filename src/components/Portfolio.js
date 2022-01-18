@@ -5,7 +5,8 @@ import { SocialIcon } from "react-social-icons"
 import image0 from "../images/1.jpg"
 import image1 from "../images/2.jpg"
 import image2 from "../images/0.jpg"
-import image4 from "../images/4.jpg"
+import image7 from "../images/4.jpg"
+import image4 from "../images/5.jpg"
 import image5 from "../images/6.jpg"
 import image6 from "../images/7.jpg"
 
@@ -47,9 +48,6 @@ function Portfolio() {
             <Image className="image1" height="600px" width="600px" src={image2} fluid />
           </a>
         </div>
-        <a href="https://alehr45.github.io/weekly-food-planner/ " target="_blank">
-          <Image className="image1" height="600px" width="600px" src={image2} fluid />
-        </a>
       </div>
 
       <div>
@@ -63,16 +61,18 @@ function Portfolio() {
       </div>
       <div>
         <div>
-          <h5 class="title1">-True Plumb-</h5>
-          <h6 className="description">A mobile site made for a friend opening their own plumbing business </h6>
+          <h5 class="title1">-Chat-Vibe-</h5>
+          <h6 className="description">A simple React chat hosting site.</h6>
         </div>
-
+        <a href="https://chatvibe.netlify.app/" target="_blank">
+          <Image className="image1" height="600px" width="600px" src={image4} fluid />
+        </a>
         <div>
-          <h5 class="title1">-GamerSpot-</h5>
-          <h6 className="description">A video game e-commerce site using Handlebars.</h6>
+          <h5 class="title1">-TruePlumb-</h5>
+          <h6 className="description">A plumbing website made for a friend.</h6>
         </div>
-        <a href="https://gamer-spot-45.herokuapp.com/" target="_blank">
-          <Image className="image1" height="600px" width="600px" src={image0} fluid />
+        <a href="http://trueplumb.herokuapp.com/" target="_blank">
+          <Image className="image1" height="600px" width="600px" src={image7} fluid />
         </a>
       </div>
 

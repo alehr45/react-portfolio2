@@ -55,7 +55,7 @@ function Portfolio() {
           <h5 class="title1">-WordPress University-</h5>
           <h6 className="description">An website built for a university using PHP and Wordpress. </h6>
         </div>
-        <a href="http://www.alehr-wordpress.com/" target="_blank">
+        <a href="http://www.wordpressuniversity.org/" target="_blank">
           <Image className="image1" height="600px" width="600px" src={image5} fluid />
         </a>
       </div>
